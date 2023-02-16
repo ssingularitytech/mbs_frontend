@@ -21,7 +21,7 @@ export default class TopBar extends React.Component {
     let progressSection = {
       position: "relative",
       top: this.props.cost === undefined ? "24px" : "-9px",
-      width: "330px",
+      width: "100%",
       display: "inline-block",
       zIndex: 3,
       color: "#42609c"
