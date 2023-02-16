@@ -59,7 +59,7 @@ export default class Surveyor extends React.Component {
                 <div
                     key={`question-${idx}`}
                     style={{
-                        height: "400px",
+                        height: "fit-content",
                         width: "100%",
                         // background: `url(${this.props.interview.background})`,
                         backgroundSize: "cover",
@@ -77,7 +77,7 @@ export default class Surveyor extends React.Component {
                         
                     </div>
                     <FlexBox>
-                        <div style={{ width: "90%" }}>
+                        <div style={{ width: "100%" }}>
                             <p>{elm.question}</p>
                             <br />
                             {elm.options.length === 0 && (
@@ -126,7 +126,7 @@ export default class Surveyor extends React.Component {
                                                     option.competencies
                                                 )
                                             }
-                                            style={{ marginBottom: "5px" }}
+                                            style={{ marginBottom: "5px" , width: "94%"}}
                                         />
                                     );
                                 })}
@@ -155,7 +155,7 @@ export default class Surveyor extends React.Component {
                                 />
                                 <div
                                     style={{
-                                        height: "556px",
+                                        height: "100%",
                                         overflow: "hidden",
                                         marginTop: "-64px",
                                         paddingTop: "56px",
@@ -165,7 +165,7 @@ export default class Surveyor extends React.Component {
                                 >
                                     <div
                                         style={{
-                                            height: "514px",
+                                            height: "100%",
                                             overflow: "hidden"
                                         }}
                                     >

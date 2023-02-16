@@ -10,12 +10,13 @@ export default class TopBar extends React.Component {
     let topBarWrapper = {
       position: "relative",
       zIndex: "2",
-      marginTop: "-35px"
+      // marginTop: "-35px",
+      textAlign: "center",
     };
     let topImage = {
       display: "inline-block",
       height: "128px",
-      zIndex: "9"
+      zIndex: "9",
     };
     let progressSection = {
       position: "relative",
