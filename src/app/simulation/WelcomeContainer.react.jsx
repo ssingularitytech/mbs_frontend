@@ -47,10 +47,10 @@ export class WelcomeContainer extends React.Component {
                 <div
                     className="isRelative"
                     style={{
-                        height: "640px",
+                        height: "100%",
                         padding: "10px 50px",
                         width: "100%",
-                        background: "rgba(0,0,0,0.5)",
+                        background: "rgba(0,0,0,0.3)",
                         color: "#ffffff"
                     }}
                 >
@@ -61,7 +61,7 @@ export class WelcomeContainer extends React.Component {
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/cologo.png"
+                                        "/images/configurable/sslogo.png"
                                     }
                                     style={{ margin: "0 auto" }}
                                     size="medium"
@@ -70,10 +70,10 @@ export class WelcomeContainer extends React.Component {
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/logo.png"
+                                        "/images/configurable/sslogo.png"
                                     }
                                     style={{ margin: "0 auto" }}
-                                    size="medium"
+                                    size="small"
                                 />
                             </Grid.Column>
                         </Grid.Row>
@@ -97,7 +97,7 @@ export class WelcomeContainer extends React.Component {
                                     dangerouslySetInnerHTML={{
                                         __html: welcomeText.content
                                     }}
-                                    style={{ marginTop: "5px" }}
+                                    style={{ marginTop: "5px" , color:'black' }}
                                 />
                                 <br />
                                 <Button
@@ -105,7 +105,8 @@ export class WelcomeContainer extends React.Component {
                                     primary
                                     content={welcomeText.buttonText}
                                     onClick={this.startSim}
-                                    floated="right"
+                                    // floated="center"
+                                    style={{ display: 'block', margin: '5px auto' }}
                                 />
                             </Grid.Column>
                         </Grid.Row>

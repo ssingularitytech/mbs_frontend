@@ -23,7 +23,7 @@ export default class Simulation extends React.Component {
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/logo.png"
+                                        "/images/configurable/sslogo.png"
                                     }
                                     size="medium"
                                 />
@@ -32,7 +32,7 @@ export default class Simulation extends React.Component {
                                         {cutScenes[this.props.params.id].title}
                                     </h1>
                                     <p dangerouslySetInnerHTML={{ __html: cutScenes[this.props.params.id].content }}/>
-                                    <Button
+                                    {/* <Button
                                         content={
                                             cutScenes[this.props.params.id]
                                                 .buttonText
@@ -43,7 +43,7 @@ export default class Simulation extends React.Component {
                                         labelPosition="right"
                                         icon="right chevron"
                                         onClick={this.goNext}
-                                    />
+                                    /> */}
                                     <br/>
                                 </Segment>
                             </div>

@@ -284,7 +284,7 @@ class AuthenticationContainer extends React.Component {
                 <FlexBox>
                     <div>
                         <img
-                            src={"assets/images/configurable/cologo.png"}
+                            src={"assets/images/configurable/sslogo.png"}
                             alt="logo"
                             style={coLogoStyle}
                         />
