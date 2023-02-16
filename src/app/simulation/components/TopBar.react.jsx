@@ -62,7 +62,7 @@ export default class TopBar extends React.Component {
           style={{
             position: "relative",
             top: "0px",
-            width: "330px",
+            width: "100%",
             display: "inline-block",
             zIndex: 3
           }}
