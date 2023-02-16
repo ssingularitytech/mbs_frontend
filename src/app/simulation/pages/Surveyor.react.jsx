@@ -61,7 +61,7 @@ export default class Surveyor extends React.Component {
                     style={{
                         height: "400px",
                         width: "100%",
-                        background: `url(${this.props.interview.background})`,
+                        // background: `url(${this.props.interview.background})`,
                         backgroundSize: "cover",
                         textAlign: "center",
                         position: "relative"
@@ -78,7 +78,7 @@ export default class Surveyor extends React.Component {
                     </div>
                     <FlexBox>
                         <div style={{ width: "90%" }}>
-                            <h1>{elm.question}</h1>
+                            <p>{elm.question}</p>
                             <br />
                             {elm.options.length === 0 && (
                                 <Input
@@ -140,20 +140,10 @@ export default class Surveyor extends React.Component {
             <div className="full-height" style={{ padding: "40px 40px" }}>
                 <Segment basic>
                     <Grid>
+
                         <Grid.Row>
-                            <Grid.Column width={5}>
-                                <InfoPane
-                                    title={this.props.interview.title}
-                                    content={this.props.interview.content}
-                                    buttonText={this.props.interview.buttonText}
-                                    handleSubmit={this.handleSubmit}
-                                    disabled={
-                                        this.state.answered.length !==
-                                        this.props.interview.questions.length
-                                    }
-                                />
-                            </Grid.Column>
-                            <Grid.Column width={11}>
+                            
+                            <Grid.Column width={16}>
                                 <TopBar
                                     image={
                                         "assets/images/configurable/interview.png"
@@ -191,6 +181,20 @@ export default class Surveyor extends React.Component {
                                         </div>
                                     </div>
                                 </div>
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row>
+                            <Grid.Column width={16}>
+                                <InfoPane
+                                    title={this.props.interview.title}
+                                    content={this.props.interview.content}
+                                    buttonText={this.props.interview.buttonText}
+                                    handleSubmit={this.handleSubmit}
+                                    disabled={
+                                        this.state.answered.length !==
+                                        this.props.interview.questions.length
+                                    }
+                                />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
