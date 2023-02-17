@@ -52,20 +52,18 @@ export default class Result extends React.Component {
                                     buttonText={resultText.buttonText}
                                     handleSubmit={this.handleSubmit}
                                     content={resultText.content}
+                                /> 
+                                <br /> <br />
+                                <Button
+                                    content= "See Analytics"
+                                    size="huge"
+                                    primary
+                                    fluid
+                                    labelPosition="right"
+                                    icon="right chevron"
+                                    href={`/simulator/#/analytics/${this.state.userId}`}
                                 />
-                                {this.state.userId && 
-                                <>
-                                    <br /><br />
-                                    <Button
-                                        content="See Analytics"
-                                        size="huge"
-                                        primary
-                                        fluid
-                                        labelPosition="right"
-                                        icon="right chevron"
-                                        href={`/simulator/#/analytics/${this.state.userId}`}
-                                    /> 
-                                </>}
+                                
                             </Grid.Column>
                             {/* <Grid.Column width={10} style={{display: 'block', margin:'0 auto'}}>
                                     <TopBar
