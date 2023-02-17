@@ -1,23 +1,23 @@
 let welcomeText = {
-    title: "Welcome to the Personality Profiler",
+    title: "Welcome to the your Psychometric Test",
     content:
-        "Welcome to the Magickbricks Know your personlaity Challenge!<br><br> You are playing as an ed-tech entprepreneur who is looking to launch an app to teach the youth of today their mother-tongue.<br><br> M-Permutator is the most sought-after incubator in the country and you are looking to get in there to maximize your chances of being funded and growing into the next killer app!<br><br> Go through your pitch deck to better understand the business idea, so that you can more forward in this simulation. Best of luck!",
-    buttonText: "Start the Simulation",
+        "Welcome to your Psychometric test!<br><br>You will be give a set of 15 questions which you must answer to complete your test. <br><br> At the end of the test, you will be able to view your score on certain parameters. <br> <br> Best of luck!",
+    buttonText: "Start",
     link: "/simulation/1"
 };
 let resultText = {
     title: "Congratulations!",
     content:
-        "You are at a stage that every entrepreneur aspires to be! You have sold your company and made returns for your investors and yourself. <br><br> Let us see how you did....",
+        "You have completed your test successfully. <br><br> Let us see how you did....",
     buttonText: "View Certificate"
 };
 let cutScenes = {
     1: {
-        title: "Personality profile challenge",
-        headline: "Know your personality ",
+        title: "Psychometric Test",
+        headline: "Know Yourself!",
         content:
-            "The wait is over! <br/><br/>Please click on the Play button. Answer all the questions honestly.<br/> We will process your application and announce the winners shortly. <br/><br/>Best of Luck!",
-        buttonText: "Play",
+            "Click on Start to begin your test. <br/><br/>Best of Luck!",
+        buttonText: "Start",
         link: "/simulation_questions/1"
     }
 };
@@ -30,12 +30,12 @@ let interviews = {
         presenter: "/assets/images/configurable/characters/hrlady.png",
         content:
             " The wait is over! Fill in the application form along with your business plan within the next 3 days. We will process your application and announce the winners shortly. Best of Luck!",
-        buttonText: "Submit Application",
+        buttonText: "Submit",
         link: "/result",
         questions: [
             {
                 questionId : "1",
-                question: "Your are a part of a 10-member execution team. Your team lead is on leave due to a medical emergency. You have client deliverables and timelines. What will you do?",
+                question: "You are a part of a 10-member execution team. Your team lead is on leave due to a medical emergency. You have client deliverables. What will you do?",
                 options: {
                     0: 
                     {
@@ -113,7 +113,7 @@ let interviews = {
             }, 
             {
                 questionId : "2",
-                question: "You are a Sales Head for the company. The management has proposed to launch a sales campaign for one of the offerings to increase sales by 15%.  You have to achieve your targets. However, your Marketing Head has resigned. What will you do?",
+                question: "You are a Sales Head for a company. The management has proposed to launch a sales campaign for one of the offerings to increase sales by 15%. You have to achieve your targets. However, your Marketing Head has resigned. What will you do?",
                 options: {
                     0: 
                     {
@@ -153,7 +153,7 @@ let interviews = {
                     },
                     2:
                     {
-                        option: "I will work without a marketing plan and let the management team figure out the marketing strategy",
+                        option: "I will let the management team figure out the marketing strategy",
                         value: {
                             ownership: 0,
                             passion_for_excellence: 0,
@@ -167,11 +167,11 @@ let interviews = {
                             balanced_approach: 0,
                             time_management: 0
                     },
-                        attributes: ["Individual Contributor","StubbornIndividual Contributor","Stubborn"]
+                        attributes: ["Individual Contributor","Stubborn", "Individual Contributor","Stubborn"]
                     },
                     3:
                     {
-                        option: "I will look up to the marketing team to help me with whatever is required for the campaign and device a sales strategy",
+                        option: "I will look up to the marketing team to help me",
                         value: {
                             ownership: 0,
                             passion_for_excellence: 0,
@@ -213,7 +213,7 @@ let interviews = {
                     },
                     1:
                     {
-                        option: "I will speak to her about why the work is not done. I will tell her to complete the assignment all by herself.",
+                        option: "I will speak to her about why the work is not done and tell her to complete the assignment all by herself.",
                         value: {
                             ownership: 0,
                             passion_for_excellence: 0,
@@ -231,7 +231,7 @@ let interviews = {
                     },
                     2:
                     {
-                        option: "I will speak to her about why the work is not done. I will also help her complete the assignment to meet deadlines. ",
+                        option: "I will speak to her about why the work is not done and help her complete the assignment to meet deadlines. ",
                         value: {
                             ownership: 0,
                             passion_for_excellence: 0,
@@ -269,7 +269,7 @@ let interviews = {
             }, 
             {
                 questionId : "4",
-                question: "You have been working on a very important project and you have a devised a plan to achieve the targets. You happen to discuss the same with one of your colleagues. He points out an important point that you have missed and working on it helps you achieve your goal. You also get lots of appreciation from your boss. What will you do? ",
+                question: "You have been working on a very important project and you have a devised a plan to achieve the targets. You happen to discuss the same with one of your colleagues. He points out an important point that you have missed. You work on it and complete the project successfully. Your boss is really happy with you. What will you do? ",
                 options: {
                     0: 
                     {
@@ -369,7 +369,7 @@ let interviews = {
                     },
                     1:
                     {
-                        option: "I will give preference to my acquaintance as he will feel bad once he knows it.",
+                        option: "I will give preference to my acquaintance as he will feel bad if he gets to know that I didn't recommend him.",
                         value: {
                             ownership: 0,
                             passion_for_excellence: 0,
@@ -425,7 +425,7 @@ let interviews = {
             }, 
             {
                 questionId : "6",
-                question: "Your PM has jotted a framework within which the work has to be done. In the process, you find a key point which seems to be missed. It will help you and your team excel. Will you point it out? If yes, will you take the responsibility up? ",
+                question: "Your PM has created a project plan with which the execution needs to be done. However, he has missed an important point which will help you complete your project in lesser number of days. Will you point it out? If yes, will you take the responsibility up? ",
                 options: {
                     0: 
                     {

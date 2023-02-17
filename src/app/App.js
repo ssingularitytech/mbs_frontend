@@ -123,7 +123,7 @@ class App extends React.Component {
     render() {
         let noOverflow = {
             // overflow: "hidden auto",
-            height: "100vh"
+            height: "auto"
         };
         let appStyle = {
             ...getAppConfig().appStyle,
