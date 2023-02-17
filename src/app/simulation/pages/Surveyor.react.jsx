@@ -149,7 +149,7 @@ export default class Surveyor extends React.Component {
                                         "assets/images/configurable/interview.png"
                                     }
                                     presenter={this.props.interview.presenter}
-                                    constraint={"Questions Answered"}
+                                    constraint={"Questions"}
                                     maxConstraint={this.state.questions.length}
                                     cost={this.state.answered.length}
                                 />
@@ -160,7 +160,8 @@ export default class Surveyor extends React.Component {
                                         marginTop: "-64px",
                                         paddingTop: "56px",
                                         position: "relative",
-                                        zIndex: "2"
+                                        zIndex: "2",
+
                                     }}
                                 >
                                     <div
@@ -169,7 +170,7 @@ export default class Surveyor extends React.Component {
                                             overflow: "hidden"
                                         }}
                                     >
-                                        <div style={{ padding: "30px 0" }}>
+                                        <div style={{ padding: "30px 0" ,  }}>
                                             <HTMLSlider
                                                 sliderItems={questionCards}
                                                 slidesToShow={1}

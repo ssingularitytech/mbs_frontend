@@ -117,9 +117,9 @@ class FetchRequest {
             this.tokenHash = {
                 "access-token": `${this.token}`,
                 "token-type": "Bearer",
-                expiry: expiry,
-                client: client,
-                uid: uid
+                "expiry": expiry,
+                "client": client,
+                "uid": uid
             };
             // const stringyfiedTokenHashEncoded = btoa(
             // JSON.stringify(this.tokenHash)

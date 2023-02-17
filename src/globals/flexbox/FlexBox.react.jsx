@@ -15,13 +15,15 @@ export default class FlexBox extends React.Component {
     render() {
         let defaultValues = {
             display: 'flex',
-            // height: this.props.height || '100%',
+            height: this.props.height || '100%',
             width: 'calc(100% + 1px)',
             alignItems: this.props.vertical || 'center',
             justifyContent: this.props.horzontal || 'center',
             backgroundColor: this.props.background || 'inherit',
             flexDirection: this.props.direction || 'column',
-            position: "relative"
+            position: "relative",
+            fontFamily:' roboto',
+            fontSize: '18px',
         };
 
         let containerStyle = {

@@ -83,7 +83,7 @@ export class WelcomeContainer extends React.Component {
                                     dangerouslySetInnerHTML={{
                                         __html: welcomeText.content
                                     }}
-                                    style={{ marginTop: "5px" , color: "black"}}
+                                    style={{ marginTop: "5px" , color: "black", textAlign:'center', fontFamily:'roboto', padding:'0'}}
                                 /> 
                                 <br />
                                 <Button
