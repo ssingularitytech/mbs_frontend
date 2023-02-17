@@ -194,7 +194,8 @@ export class AnalyticsContainer extends React.Component {
         };
         let bannerStyle = {
             image: {
-                width: "100%",
+                width: "50%",
+                border: '2px solid red'
             },
             overlay: {
                 position: "absolute",
@@ -254,7 +255,8 @@ export class AnalyticsContainer extends React.Component {
             logoImage: {
                 width: "55%",
                 margin: "0%",
-                marginRight: '20px'
+                marginLeft: '25px',
+                size:'small'
             }
         };
 

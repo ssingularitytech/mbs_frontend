@@ -30,12 +30,12 @@ export default class InfoPane extends React.PureComponent {
     render() {
         return (
             <div>
-                <Image style={{display: 'block', margin: '0 auto'}} src={"assets/images/configurable/sslogo.png"} />
+                <Image style={{display: 'block', margin: '0 auto' ,height:'180px' }} src={"assets/images/configurable/slogo.png"} />
                 {this.props.phaseTime !== undefined && (
                     <a href="/#/info">
                         <Image
                             src={"/assets/images/configurable/help.png"}
-                            size="tiny"
+                            size="small"
                             style={{ marginTop: "-64px" }}
                         />
                     </a>

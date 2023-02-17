@@ -27,7 +27,7 @@ export default class Result extends React.Component {
             userId: this.props.auth.user.id
         };
     }
-
+    
     componentDidMount() {
         let finalValuation = 1;
         this.setState({ finalValuation });
