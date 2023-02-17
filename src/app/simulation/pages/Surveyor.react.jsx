@@ -178,13 +178,16 @@ export default class Surveyor extends React.Component {
                                                 dots={false}
                                                 arrows={false}
                                                 arrowBtns={true}
+                                                answered={this.state.answered.length}
+                                                total={this.props.interview.questions.length}
+                                                handleSubmit={this.handleSubmit}
                                             />
                                         </div>
                                     </div>
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
-                        <Grid.Row>
+                        {/* <Grid.Row>
                             <Grid.Column width={16}>
                                 <InfoPane
                                     title={this.props.interview.title}
@@ -197,7 +200,7 @@ export default class Surveyor extends React.Component {
                                     }
                                 />
                             </Grid.Column>
-                        </Grid.Row>
+                        </Grid.Row> */}
                     </Grid>
                 </Segment>
             </div>
