@@ -23,7 +23,8 @@ export default class Result extends React.Component {
         this.state = {
             coeff: Object.assign({}, this.props.simParams, simParams),
             finalValuation: 0,
-            modalOpen: false
+            modalOpen: false,
+            userId: this.props.auth.user.id
         };
     }
 
@@ -51,7 +52,18 @@ export default class Result extends React.Component {
                                     buttonText={resultText.buttonText}
                                     handleSubmit={this.handleSubmit}
                                     content={resultText.content}
+                                /> 
+                                <br /> <br />
+                                <Button
+                                    content= "See Analytics"
+                                    size="huge"
+                                    primary
+                                    fluid
+                                    labelPosition="right"
+                                    icon="right chevron"
+                                    href={`/simulator/#/analytics/${this.state.userId}`}
                                 />
+                                
                             </Grid.Column>
                             {/* <Grid.Column width={10} style={{display: 'block', margin:'0 auto'}}>
                                     <TopBar
