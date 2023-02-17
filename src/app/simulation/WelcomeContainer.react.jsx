@@ -47,10 +47,10 @@ export class WelcomeContainer extends React.Component {
                 <div
                     className="isRelative"
                     style={{
-                        height: "100%",
+                        // height: "100%",
                         padding: "10px 50px",
                         width: "100%",
-                        background: "rgba(0,0,0,0.3)",
+                        background: "#ffffff",
                         color: "#ffffff"
                     }}
                 >
@@ -78,35 +78,20 @@ export class WelcomeContainer extends React.Component {
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
-                            <Grid.Column width={7}>
-                                <div
-                                    style={{ padding: "0", width: "100%" }}
-                                >
-                                    <HTMLSlider
-                                        sliderItems={presentation}
-                                        slidesToShow={1}
-                                        autoPlay={false}
-                                        dots={false}
-                                        arrows={false}
-                                        arrowBtns={true}
-                                    />
-                                </div>
-                            </Grid.Column>
-                            <Grid.Column width={9}>
+                            <Grid.Column width={16}>
                                 <h3
                                     dangerouslySetInnerHTML={{
                                         __html: welcomeText.content
                                     }}
-                                    style={{ marginTop: "5px" , color:'black' }}
-                                />
+                                    style={{ marginTop: "5px" , color: "black"}}
+                                /> 
                                 <br />
                                 <Button
                                     size="huge"
                                     primary
                                     content={welcomeText.buttonText}
                                     onClick={this.startSim}
-                                    // floated="center"
-                                    style={{ display: 'block', margin: '5px auto' }}
+                                    style={{display: 'block', margin: '0 auto'}}
                                 />
                             </Grid.Column>
                         </Grid.Row>

@@ -82,7 +82,9 @@ class HTMLSlider extends React.Component {
         };
         let carouselStyle = {
             width: "100%",
-            height: "100%"
+            maxWidth: "500px",
+            height: "100%",
+            margin: "0 auto"
         };
 
         return (
@@ -118,6 +120,7 @@ class HTMLSlider extends React.Component {
                             icon="chevron left"
                             labelPosition="left"
                             secondary
+                            style={{ float: "left", fontSize: '12px' }}
                             onClick={this.previous}
                             disabled={this.state.index === 0}
                         />
@@ -126,7 +129,7 @@ class HTMLSlider extends React.Component {
                             icon="chevron right"
                             labelPosition="right"
                             secondary
-                            style={{ float: "right" }}
+                            style={{ float: "right", fontSize: '12px' }}
                             onClick={this.next}
                             disabled={
                                 this.state.index ===

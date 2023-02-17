@@ -166,9 +166,9 @@ class AxiosRequest {
             const tokenHash = {
                 "access-token": token,
                 "token-type": tokenType,
-                expiry: expiry,
-                client: client,
-                uid: uid
+                "expiry": expiry,
+                "client": client,
+                "uid": uid
             };
             axios.defaults.headers.common = {
                 ...axios.defaults.headers.common,
@@ -221,7 +221,8 @@ class AxiosRequest {
                     const decryptedValue = simpleCrypto.decrypt(
                         stringyfiedTokenHashEncoded
                     );
-                    const tokenValue = JSON.parse(decryptedValue);
+                    // const tokenValue = JSON.parse(decryptedValue);
+                    const tokenValue = decryptedValue;
                     return tokenValue;
                 } else {
                     // If LocalStore Doesn't have any token hash(generally in initial app start), retrun blank hash.

@@ -44,7 +44,7 @@ export default class Result extends React.Component {
                 <Segment basic>
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column width={4}>
+                            <Grid.Column width={16}  style={{paddingBottom: '50px'}}>
                                 <InfoPane
                                     key={`infopane-${this.state.monthId}`}
                                     title={resultText.title}
@@ -53,19 +53,19 @@ export default class Result extends React.Component {
                                     content={resultText.content}
                                 />
                             </Grid.Column>
-                            <Grid.Column width={12}>
-                                <TopBar
+                            {/* <Grid.Column width={10} style={{display: 'block', margin:'0 auto'}}>
+                                    <TopBar
                                     constraint={`Simulation Over`}
-                                    image={
+                                    image= {    
                                         "/assets/images/configurable/money.png"
                                     }
                                     presenter={
                                         "/assets/images/configurable/characters/mentor.png"
                                     }
-                                    marginTop={"40px"}
+                                    // marginTop={"80px"}
                                 />
                               
-                            </Grid.Column>
+                            </Grid.Column> */}
                         </Grid.Row>
                     </Grid>
                 </Segment>
@@ -85,7 +85,7 @@ export default class Result extends React.Component {
                                 lineHeight: "1.2",
                                 fontSize: "2.5em",
                                 color: "#000000",
-                                transform: "translateX(-50%)"
+                                transform: "translateX(-50%)",
                             }}
                         >
                             {

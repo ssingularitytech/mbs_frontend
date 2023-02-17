@@ -30,7 +30,7 @@ export default class InfoPane extends React.PureComponent {
     render() {
         return (
             <div>
-                <Image src={"assets/images/configurable/sslogo.png"} />
+                <Image style={{display: 'block', margin: '0 auto'}} src={"assets/images/configurable/sslogo.png"} />
                 {this.props.phaseTime !== undefined && (
                     <a href="/#/info">
                         <Image
@@ -56,9 +56,12 @@ export default class InfoPane extends React.PureComponent {
                             </span>
                         )}
                     </h1>
-                    <p
+                    <div>
+                    <p style={{fontFamily:'Roboto', fontSize:'18px', fontWeight:'550'}}
                         dangerouslySetInnerHTML={{ __html: this.props.content }}
                     />
+                    </div>
+
                     <br />
                     <Button
                         content={this.props.buttonText}
@@ -68,6 +71,7 @@ export default class InfoPane extends React.PureComponent {
                         labelPosition="right"
                         icon="right chevron"
                         onClick={this.goNext}
+                        handleSubmit={this.handleSubmit}
                         disabled={this.props.disabled}
                     />
                 </Segment>

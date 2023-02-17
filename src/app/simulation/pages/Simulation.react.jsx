@@ -20,19 +20,19 @@ export default class Simulation extends React.Component {
                     <Grid>
                         <Grid.Row>
                             <div style={{margin: "auto"}}>   
-                                <Image
+                                <Image  style={{ margin: "0 auto" }}
                                     src={
                                         getAppConfig().apiUrls.assetLib +
                                         "/images/configurable/sslogo.png"
                                     }
-                                    size="medium"
+                                    size="small"
                                 />
                                 <Segment raised inverted>
                                     <h1 style={{color:"#ffc900"}}>
                                         {cutScenes[this.props.params.id].title}
                                     </h1>
                                     <p dangerouslySetInnerHTML={{ __html: cutScenes[this.props.params.id].content }}/>
-                                    {/* <Button
+                                    <Button
                                         content={
                                             cutScenes[this.props.params.id]
                                                 .buttonText
@@ -43,7 +43,7 @@ export default class Simulation extends React.Component {
                                         labelPosition="right"
                                         icon="right chevron"
                                         onClick={this.goNext}
-                                    /> */}
+                                    />
                                     <br/>
                                 </Segment>
                             </div>

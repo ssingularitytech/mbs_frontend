@@ -15,7 +15,7 @@ export default class FlexBox extends React.Component {
     render() {
         let defaultValues = {
             display: 'flex',
-            // height: this.props.height || '100%',
+            height: this.props.height || '100%',
             width: 'calc(100% + 1px)',
             alignItems: this.props.vertical || 'center',
             justifyContent: this.props.horzontal || 'center',
