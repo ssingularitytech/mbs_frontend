@@ -78,7 +78,7 @@ export class WelcomeContainer extends React.Component {
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
-                            <Grid.Column width={16}>
+                            <Grid.Column width={16} style={{textAlign : "center", padding: "0px"}}>
                                 <h3
                                     dangerouslySetInnerHTML={{
                                         __html: welcomeText.content
