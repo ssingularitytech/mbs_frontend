@@ -12,7 +12,7 @@ export default class UserList extends PureComponent {
             userList: _.map(this.props.userList, record => {
                 let data = record.user_data;
                 let userBasicData = {
-                    id: record.id ,
+                    id: record.user_id ,
                     name: record.user.name,
                     simulation_id: data.simulation_id,
                     email: record.email,
