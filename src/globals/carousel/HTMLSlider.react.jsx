@@ -75,7 +75,7 @@ class HTMLSlider extends React.Component {
         };
         let sliderItemStyle = {
             width: "100%",
-            height: "100%"
+            height: "100%",
         };
         let activeSliderItemStyle = {
             ...sliderItemStyle
@@ -104,7 +104,8 @@ class HTMLSlider extends React.Component {
                                 style={
                                     this.props.active === index
                                         ? activeSliderItemStyle
-                                        : sliderItemStyle
+                                        : sliderItemStyle 
+
                                 }
                             >
                                 {content}

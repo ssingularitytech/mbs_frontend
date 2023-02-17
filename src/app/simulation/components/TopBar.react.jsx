@@ -10,19 +10,18 @@ export default class TopBar extends React.Component {
     let topBarWrapper = {
       position: "relative",
       zIndex: "2",
-      marginTop: "-35px",
-      textAlign : "center",
+      // marginTop: "-35px",
+      textAlign: "center",
     };
     let topImage = {
       display: "inline-block",
       height: "128px",
       zIndex: "9",
-    
     };
     let progressSection = {
       position: "relative",
       top: this.props.cost === undefined ? "24px" : "-9px",
-      width: "330px",
+      width: "100%",
       display: "inline-block",
       zIndex: 3,
       color: "#42609c"
@@ -63,7 +62,7 @@ export default class TopBar extends React.Component {
           style={{
             position: "relative",
             top: "0px",
-            width: "330px",
+            width: "100%",
             display: "inline-block",
             zIndex: 3
           }}

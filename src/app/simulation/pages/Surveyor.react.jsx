@@ -59,7 +59,7 @@ export default class Surveyor extends React.Component {
                 <div
                     key={`question-${idx}`}
                     style={{
-                        height: "400px",
+                        height: "fit-content",
                         width: "100%",
                         // background: `url(${this.props.interview.background})`,
                         backgroundSize: "cover",
@@ -126,7 +126,7 @@ export default class Surveyor extends React.Component {
                                                     option.competencies
                                                 )
                                             }
-                                            style={{ marginBottom: "5px", width: "94%" }}
+                                            style={{ marginBottom: "5px" , width: "94%"}}
                                         />
                                     );
                                 })}
@@ -143,8 +143,8 @@ export default class Surveyor extends React.Component {
 
                         <Grid.Row>
                             
-                            <Grid.Column width={16} >
-                                <TopBar 
+                            <Grid.Column width={16}>
+                                <TopBar
                                     image={
                                         "assets/images/configurable/interview.png"
                                     }
@@ -155,7 +155,7 @@ export default class Surveyor extends React.Component {
                                 />
                                 <div
                                     style={{
-                                        height: "556px",
+                                        height: "100%",
                                         overflow: "hidden",
                                         marginTop: "-64px",
                                         paddingTop: "56px",
@@ -166,8 +166,8 @@ export default class Surveyor extends React.Component {
                                 >
                                     <div
                                         style={{
-                                            height: "554px",
-                                            overflow: "hidden",
+                                            height: "100%",
+                                            overflow: "hidden"
                                         }}
                                     >
                                         <div style={{ padding: "30px 0" ,  }}>
@@ -184,7 +184,7 @@ export default class Surveyor extends React.Component {
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
-                        {/* <Grid.Row>
+                        <Grid.Row>
                             <Grid.Column width={16}>
                                 <InfoPane
                                     title={this.props.interview.title}
@@ -197,7 +197,7 @@ export default class Surveyor extends React.Component {
                                     }
                                 />
                             </Grid.Column>
-                        </Grid.Row> */}
+                        </Grid.Row>
                     </Grid>
                 </Segment>
             </div>
