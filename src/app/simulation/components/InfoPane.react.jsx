@@ -73,12 +73,8 @@ export default class InfoPane extends React.PureComponent {
                         onClick={this.goNext}
                         handleSubmit={this.handleSubmit}
                         disabled={this.props.disabled}
-<<<<<<< HEAD
-                    /> 
-=======
                     />
                    
->>>>>>> dev_pankaj
                 </Segment>
             </div>
         );
