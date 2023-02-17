@@ -1,4 +1,4 @@
- /*
+/*
  * # Semantic UI - 2.3.1
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
@@ -35,13 +35,13 @@
     width: 94% !important;
  }
 
- input[type=email],
+ /* input[type=email],
  input[type=password],
  input[type=search],
  input[type=text] {
      -webkit-appearance: none;
      -moz-appearance: none
- }
+ } */
 
  /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
  html {
@@ -187,12 +187,12 @@
      text-transform: none
  }
 
- [type=reset],
+ /* [type=reset],
  [type=submit],
  button,
  html [type=button] {
      -webkit-appearance: button
- }
+ } */
 
  [type=button]::-moz-focus-inner,
  [type=reset]::-moz-focus-inner,
@@ -245,7 +245,7 @@
  }
 
  [type=search] {
-     -webkit-appearance: textfield;
+     /* -webkit-appearance: textfield; */
      outline-offset: -2px
  }
 
@@ -308,7 +308,7 @@
      font-size: 14px;
      line-height: 1.4285em;
      color: rgba(0, 0, 0, .87);
-     font-smoothing: antialiased
+     /* font-smoothing: antialiased */
  }
 
  h1,
@@ -4648,8 +4648,6 @@
      vertical-align: baseline;
      margin: 0 .5em 0 0;
      text-decoration: inherit;
-     speak: none;
-     font-smoothing: antialiased;
      -webkit-backface-visibility: hidden;
      backface-visibility: hidden
  }
@@ -6589,8 +6587,8 @@
      font-weight: 400;
      text-decoration: inherit;
      text-align: center;
-     speak: none;
-     font-smoothing: antialiased;
+     /* speak: none;
+     font-smoothing: antialiased; */
      -moz-osx-font-smoothing: grayscale;
      -webkit-font-smoothing: antialiased;
      -webkit-backface-visibility: hidden;
@@ -17451,8 +17449,8 @@
      font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
      margin: 0;
      outline: 0;
-     -webkit-appearance: none;
-     tap-highlight-color: rgba(255, 255, 255, 0);
+     /* -webkit-appearance: none;
+     tap-highlight-color: rgba(255, 255, 255, 0); */
      line-height: 1.21428571em;
      padding: .67857143em 1em;
      font-size: 1em;
@@ -17468,8 +17466,8 @@
 
  .ui.form textarea {
      margin: 0;
-     -webkit-appearance: none;
-     tap-highlight-color: rgba(255, 255, 255, 0);
+     /* -webkit-appearance: none;
+     tap-highlight-color: rgba(255, 255, 255, 0); */
      padding: .78571429em 1em;
      background: #fff;
      border: 1px solid rgba(34, 36, 38, .15);
@@ -17691,7 +17689,7 @@
      background: #fff;
      -webkit-box-shadow: 0 0 0 0 rgba(34, 36, 38, .35) inset;
      box-shadow: 0 0 0 0 rgba(34, 36, 38, .35) inset;
-     -webkit-appearance: none
+     /* -webkit-appearance: none */
  }
 
  .ui.form.success .success.message:not(:empty) {
@@ -17802,14 +17800,14 @@
      background: #fff6f6;
      border-color: #e0b4b4;
      color: #9f3a38;
-     -webkit-appearance: none;
-     -webkit-box-shadow: none;
+     /* -webkit-appearance: none;
+     -webkit-box-shadow: none; */
      box-shadow: none
  }
 
- .ui.form .field.error select {
+ /* .ui.form .field.error select {
      -webkit-appearance: menulist-button
- }
+ } */
 
  .ui.form .field.error .ui.dropdown,
  .ui.form .field.error .ui.dropdown .item,
@@ -22470,7 +22468,7 @@
      flex: 0 0 auto;
      width: auto;
      line-height: 1;
-     vertical-align: middle;
+     /* vertical-align: middle; */
      font-size: 3em;
      opacity: .8
  }
@@ -22480,7 +22478,7 @@
      -webkit-box-flex: 1;
      -ms-flex: 1 1 auto;
      flex: 1 1 auto;
-     vertical-align: middle
+     /* vertical-align: middle */
  }
 
  .ui.icon.message .icon:not(.close)+.content {
@@ -30674,7 +30672,6 @@
  .ui.search>.prompt {
      margin: 0;
      outline: 0;
-     -webkit-appearance: none;
      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
      text-shadow: none;
      font-style: normal;

@@ -61,7 +61,7 @@ export class WelcomeContainer extends React.Component {
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/cologo.png"
+                                        "/images/configurable/sslogo.png"
                                     }
                                     style={{ margin: "0 auto" }}
                                     size="medium"
@@ -70,7 +70,7 @@ export class WelcomeContainer extends React.Component {
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/logo.png"
+                                        "/images/configurable/sslogo.png"
                                     }
                                     style={{ margin: "0 auto" }}
                                     size="small"

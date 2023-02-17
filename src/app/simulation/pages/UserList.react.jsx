@@ -360,7 +360,7 @@ export default class UserList extends PureComponent {
             <Segment>
                 <h1>
                     <Image
-                        src="assets/images/configurable/logo.png"
+                        src="assets/images/configurable/sslogo.png"
                         size="small"
                         style={{ display: "inline-block", marginRight: "15px" }}
                     />

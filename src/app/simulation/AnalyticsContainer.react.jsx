@@ -194,7 +194,7 @@ export class AnalyticsContainer extends React.Component {
         };
         let bannerStyle = {
             image: {
-                width: "100%"
+                width: "100%",
             },
             overlay: {
                 position: "absolute",
@@ -321,9 +321,9 @@ export class AnalyticsContainer extends React.Component {
                                         />
                                     </div>
                                 )}
-                                <div style={bannerStyle.logo}>
+                                <div style={bannerStyle.logo} >
                                     <Image
-                                        src="assets/images/configurable/logo.png"
+                                        src="assets/images/configurable/slogo.png"
                                         style={bannerStyle.logoImage}
                                     />
                                 </div>

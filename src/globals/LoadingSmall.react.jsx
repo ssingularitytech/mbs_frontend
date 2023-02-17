@@ -23,13 +23,13 @@ class Loading extends React.Component {
                     alt="Loading Gif"
                 />
                 <img
-                    src="assets/images/configurable/logo.png"
+                    src="assets/images/configurable/sslogo.png"
                     style={{
                         position: "absolute",
                         top: "30%",
                         left: "50%",
                         transform: "translate(-50%,-50%)",
-                        maxWidth: "80vw"
+                        maxWidth: "30vw"
                     }}
                     alt="Logo"
                 />

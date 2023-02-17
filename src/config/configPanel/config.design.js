@@ -63,9 +63,9 @@ export const appStyle = {
     libraryBg: "assets/images/configurable/libraryBg.jpg",
     desktopImage: "assets/images/configurable/desktopBg.jpg",
     landscapeBg: "assets/images/configurable/landscapeBg.jpg",
-    brandingLogo: "assets/images/configurable/logo.png",
-    loginLogo: "assets/images/configurable/logo.png",
-    coLogo: "assets/images/configurable/cologo.png",
+    brandingLogo: "assets/images/configurable/sslogo.png",
+    loginLogo: "assets/images/configurable/sslogo.png",
+    coLogo: "assets/images/configurable/sslogo.png",
     footerLogo: "assets/images/configurable/footerlogo.png"
 };
 export const buttonStyle = {
