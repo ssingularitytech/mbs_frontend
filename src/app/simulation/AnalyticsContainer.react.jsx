@@ -248,11 +248,13 @@ export class AnalyticsContainer extends React.Component {
                 background: "#454545",
                 position: "absolute",
                 top: "0",
-                right: "0"
+                right: "0",
+
             },
             logoImage: {
-                width: "80%",
-                margin: "10%"
+                width: "55%",
+                margin: "0%",
+                marginRight: '20px'
             }
         };
 
@@ -322,8 +324,8 @@ export class AnalyticsContainer extends React.Component {
                                     </div>
                                 )}
                                 <div style={bannerStyle.logo} >
-                                    <Image
-                                        src="assets/images/configurable/slogo.png"
+                                    <Image 
+                                        src="assets/images/configurable/sslogo.png"
                                         style={bannerStyle.logoImage}
                                         
                                     />

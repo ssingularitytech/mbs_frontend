@@ -28,7 +28,7 @@ class Loading extends React.Component {
                         top: "30%",
                         left: "50%",
                         transform: "translate(-50%,-50%)",
-                        maxWidth: "22vw"
+                        maxWidth: "30vw"
                     }}
                     alt="Logo"
                 />

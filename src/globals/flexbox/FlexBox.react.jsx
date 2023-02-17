@@ -21,7 +21,9 @@ export default class FlexBox extends React.Component {
             justifyContent: this.props.horzontal || 'center',
             backgroundColor: this.props.background || 'inherit',
             flexDirection: this.props.direction || 'column',
-            position: "relative"
+            position: "relative",
+            fontFamily:' roboto',
+            fontSize: '18px',
         };
 
         let containerStyle = {

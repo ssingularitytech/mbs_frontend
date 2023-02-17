@@ -87,6 +87,7 @@ export default class Login extends React.Component {
             <div style={boxStyle}>
                 <h1>Login</h1>
                 <Form
+                style={{width:'315px'}}
                     loading={this.state.isFetching ? true : false}
                     error={
                         this.state.errorRaised

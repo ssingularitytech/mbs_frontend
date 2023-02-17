@@ -1,6 +1,6 @@
 export const apiUrls = {
-    apiUrl: "http://mbs.techknowzeal.com/",
-    assetUrl: "http://mbs.techknowzeal.com/",
+    apiUrl: "http://sim.ssingularity.co.in/",
+    assetUrl: "http://sim.ssingularity.co.in/",
     assetLib: "assets"
 };
 export const endpoints = {
