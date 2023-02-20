@@ -125,7 +125,21 @@ class HTMLSlider extends React.Component {
                             onClick={this.previous}
                             disabled={this.state.index === 0}
                         />
+                        {
+                        this.props.answered == this.props.total && this.state.index ===
+                        this.props.sliderItems.length - 1 ? 
+                        // <button style={{float: "right", color: "red" , backgroundColor: "black"}} onClick={this.props.handleSubmit}
+                        
+                        // >Submit</button>
                         <Button
+                            content="Submit"
+                            icon="chevron right"
+                            labelPosition="right"
+                            secondary
+                            style={{ float: "right", fontSize: '12px' , backgroundColor: "red"}}
+                            onClick={this.props.handleSubmit}
+                        />
+                        : <Button
                             content="Next"
                             icon="chevron right"
                             labelPosition="right"
@@ -136,7 +150,8 @@ class HTMLSlider extends React.Component {
                                 this.state.index ===
                                 this.props.sliderItems.length - 1
                             }
-                        />
+                        />}
+                        
                     </div>
                 )}
             </div>
