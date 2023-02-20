@@ -330,6 +330,7 @@ export class AnalyticsContainer extends React.Component {
                                     <Image 
                                         src="assets/images/configurable/sslogo.png"
                                         style={bannerStyle.logoImage}
+
                                         
                                     />
                                 </div>

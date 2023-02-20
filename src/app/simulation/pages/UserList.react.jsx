@@ -362,7 +362,7 @@ export default class UserList extends PureComponent {
                     <Image
                         src="assets/images/configurable/sslogo.png"
                         size="small"
-                        style={{ display: "inline-block", marginRight: "15px" }}
+                        style={{ display: "inline-block", marginRight: "15px", heigth:'180px' }}
                     />
                     Player List
                     <Button
