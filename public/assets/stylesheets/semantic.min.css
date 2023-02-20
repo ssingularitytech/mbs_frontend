@@ -16637,7 +16637,7 @@
      max-width: calc(100% + 2px);
      -webkit-box-shadow: none;
      box-shadow: none;
-     border: 1px solid #d4d4d5
+     border: 1px solid #d4d4d5,
  }
 
  .ui.attached:not(.message)+.ui.attached.segment:not(.top) {

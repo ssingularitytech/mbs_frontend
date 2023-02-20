@@ -72,7 +72,7 @@ export class WelcomeContainer extends React.Component {
                                         getAppConfig().apiUrls.assetLib +
                                         "/images/configurable/slogo.png"
                                     }
-                                    style={{ margin: "0 auto", height:'170px'  }}
+                                    style={{ margin: "0 auto" ,heigth:'180px' }}
                                     size="small"
                                 />
                             </Grid.Column>

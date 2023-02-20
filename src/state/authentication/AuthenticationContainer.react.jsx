@@ -120,9 +120,10 @@ class AuthenticationContainer extends React.Component {
         };
         let coLogoStyle = {
             width: "50%",
-            height: '180px',
             margin: "0 auto",
-            display: "block"
+            display: "block",
+            height:'180px'
+
         };
 
         let component = {};
