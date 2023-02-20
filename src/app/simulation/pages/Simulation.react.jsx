@@ -20,7 +20,7 @@ export default class Simulation extends React.Component {
                     <Grid>
                         <Grid.Row>
                             <div style={{margin: "auto"}}>   
-                                <Image  style={{ margin: "0 auto",  }}
+                                <Image  style={{ margin: "0 auto", height:'180px' }}
                                     src={
                                         getAppConfig().apiUrls.assetLib +
                                         "/images/configurable/slogo.png"

@@ -255,14 +255,15 @@ export class AnalyticsContainer extends React.Component {
                 width: "55%",
                 margin: "0%",
                 marginLeft: '25px',
-                size:'small'
+                size:'small',
+                heigth: "180px"
             }
         };
 
         if (!this.state.fetchComplete) return <Loading />;
         else
             return (
-                <div className="full-height isRelative" style={{overflow:"auto"}} >
+                <div className="full-height isRelative" style={{overflow: "auto"}} >
 
                     <div style={mainPanel}>
                         <div style={pageStyle.container} className="reportPage">
