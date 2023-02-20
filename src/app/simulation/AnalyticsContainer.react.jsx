@@ -195,7 +195,6 @@ export class AnalyticsContainer extends React.Component {
         let bannerStyle = {
             image: {
                 width: "50%",
-                border: '2px solid red'
             },
             overlay: {
                 position: "absolute",
@@ -263,7 +262,8 @@ export class AnalyticsContainer extends React.Component {
         if (!this.state.fetchComplete) return <Loading />;
         else
             return (
-                <div className="full-height isRelative">
+                <div className="full-height isRelative" style={{overflow:"auto"}} >
+
                     <div style={mainPanel}>
                         <div style={pageStyle.container} className="reportPage">
                             <div style={pageStyle.bannerSection}>
