@@ -119,8 +119,9 @@ class AuthenticationContainer extends React.Component {
             background: "rgba(255,255,255,0.5)"
         };
         let coLogoStyle = {
-            width: "90%",
-            margin: "0 5%",
+            width: "50%",
+            height: '180px',
+            margin: "0 auto",
             display: "block"
         };
 
@@ -284,7 +285,7 @@ class AuthenticationContainer extends React.Component {
                 <FlexBox>
                     <div>
                         <img
-                            src={"assets/images/configurable/sslogo.png"}
+                            src={"assets/images/configurable/slogo.png"}
                             alt="logo"
                             style={coLogoStyle}
                         />

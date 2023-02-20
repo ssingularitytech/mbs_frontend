@@ -64,15 +64,15 @@ export class WelcomeContainer extends React.Component {
                                         "/images/configurable/sslogo.png"
                                     }
                                     style={{ margin: "0 auto" }}
-                                    size="medium"
+                                    size="small"
                                 />
                                 */}
                                 <Image
                                     src={
                                         getAppConfig().apiUrls.assetLib +
-                                        "/images/configurable/sslogo.png"
+                                        "/images/configurable/slogo.png"
                                     }
-                                    style={{ margin: "0 auto" }}
+                                    style={{ margin: "0 auto", height:'170px'  }}
                                     size="small"
                                 />
                             </Grid.Column>
