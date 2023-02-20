@@ -195,7 +195,6 @@ export class AnalyticsContainer extends React.Component {
         let bannerStyle = {
             image: {
                 width: "50%",
-                border: '2px solid red'
             },
             overlay: {
                 position: "absolute",
